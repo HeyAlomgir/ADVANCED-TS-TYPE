@@ -1,5 +1,4 @@
 
-const gretings = () => {
-    console.log("Advanced ts type");
-}
-gretings();
+type Status = "pending";
+const status: Status = "pending";
+console.log(status)

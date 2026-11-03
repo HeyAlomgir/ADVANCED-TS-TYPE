@@ -1,5 +1,3 @@
-const gretings = () => {
-    console.log("Advanced ts type");
-};
-gretings();
+const status = "pending";
+console.log(status);
 export {};
