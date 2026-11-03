@@ -14,4 +14,11 @@ const UserRoled = "user";
 console.log(UserRole);
 console.log(UserRol);
 console.log(UserRoled);
+const user = {
+    id: 34,
+    role: 33,
+    vilage: ["df", "ff",],
+    plans: ["pro", "premium"]
+};
+console.log(user);
 export {};

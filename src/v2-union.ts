@@ -33,3 +33,19 @@ const UserRoled: Role = "user";
 console.log(UserRole);
 console.log(UserRol);
 console.log(UserRoled);
+
+
+// ObJ union
+
+type Admin = { id: number, role: number, vilage: string[], }
+type Member = { id: number, role: number, plans: string[], }
+
+type User = Admin | Member;
+
+const user: User = {
+    id: 34,
+    role: 33,
+    vilage: ["df", "ff",],
+    plans: ["pro", "premium"]
+}
+console.log(user)
