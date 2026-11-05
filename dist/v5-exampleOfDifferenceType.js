@@ -10,4 +10,8 @@
 let a = "Abid";
 a = 20;
 console.log(a);
+// unknown 
+let b = "Rromise";
+b = true;
+console.log(b);
 export {};

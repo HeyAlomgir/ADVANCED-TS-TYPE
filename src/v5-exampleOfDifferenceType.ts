@@ -13,3 +13,8 @@
 let a: any = "Abid";
 a = 20;
 console.log(a)
+
+// unknown 
+let b: unknown = "Rromise";
+b = true
+console.log(b)
