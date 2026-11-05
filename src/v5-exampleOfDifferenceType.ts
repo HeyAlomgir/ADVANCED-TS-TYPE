@@ -5,3 +5,11 @@
 // Literal Type => "pendign" | "approved"
 // Nullish Type => null
 // Botton Type => never
+
+
+// Top Type
+
+// any
+let a: any = "Abid";
+a = 20;
+console.log(a)
