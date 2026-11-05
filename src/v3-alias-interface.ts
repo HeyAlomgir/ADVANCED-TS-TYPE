@@ -33,3 +33,14 @@ const userB: UserB = {
 }
 console.log("INterface", userB);
 
+
+
+// Type alias and Interface er partoko 
+
+
+// Parthoko 1 : primitive Type
+
+
+type UserId = string;
+type age = number;
+
