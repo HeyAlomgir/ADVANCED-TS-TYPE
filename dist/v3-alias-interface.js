@@ -17,4 +17,9 @@ const admin = {
     age: 20,
 };
 console.log("Alisa extend:", admin);
+const campus = {
+    name: "Alomgir",
+    department: "CST"
+};
+console.log("Intrface extends:", campus);
 export {};

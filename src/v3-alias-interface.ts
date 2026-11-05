@@ -70,3 +70,19 @@ console.log("Alisa extend:", admin)
 
 
 
+// interface
+
+interface students {
+    name: string
+}
+interface teacher extends students {
+    department: string,
+}
+const campus: teacher = {
+    name: "Alomgir",
+    department: "CST"
+}
+console.log("Intrface extends:", campus)
+
+
+
