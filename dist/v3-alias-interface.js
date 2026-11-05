@@ -12,4 +12,9 @@ const userB = {
     semester: "6th"
 };
 console.log("INterface", userB);
+const admin = {
+    name: "ALomgir",
+    age: 20,
+};
+console.log("Alisa extend:", admin);
 export {};

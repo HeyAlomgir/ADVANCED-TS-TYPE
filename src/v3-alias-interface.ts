@@ -51,6 +51,22 @@ type age = number;
 
 type student = "ALomgir" | "CSt" | 872158
 
+// Parthoko 3 : Extends
+
+// Aloas
+
+type user = {
+    name: string;
+}
+type userb = user & {
+    age: 20;
+}
+const admin: userb = {
+    name: "ALomgir",
+    age: 20,
+}
+
+console.log("Alisa extend:", admin)
 
 
 
