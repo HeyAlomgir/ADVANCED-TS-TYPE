@@ -40,7 +40,17 @@ console.log("INterface", userB);
 
 // Parthoko 1 : primitive Type
 
-
+// alias a hoi but interface a hoi na
 type UserId = string;
 type age = number;
+
+
+// Parthoko 2 : Union Type
+
+// alias a hoi but interface a hoi na    
+
+type student = "ALomgir" | "CSt" | 872158
+
+
+
 
