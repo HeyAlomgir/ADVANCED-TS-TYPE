@@ -22,4 +22,9 @@ const campus = {
     department: "CST"
 };
 console.log("Intrface extends:", campus);
+const Abid = {
+    name: "Abid",
+    age: 20
+};
+console.log("Declaration Merging:", Abid);
 export {};

@@ -85,4 +85,24 @@ const campus: teacher = {
 console.log("Intrface extends:", campus)
 
 
+// parthoko 4 : Declaration Merging
+
+// alias a hoi  nhah but interface a hoi 
+
+interface abid {
+    name: string;
+}
+interface abid {
+    age: number;
+}
+const Abid: abid = {
+    name: "Abid",
+    age: 20
+}
+console.log("Declaration Merging:", Abid)
+
+
+
+
+
 
