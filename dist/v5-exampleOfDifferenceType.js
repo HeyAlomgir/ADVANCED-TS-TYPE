@@ -1,6 +1,6 @@
 // Top Type => any,unknown
-// Union Type => void
-// sub Uniton Type => undefind
+// Unit Type => void
+// sub Unit Type => undefind
 // core Type => strng | number
 // Literal Type => "pendign" | "approved"
 // Nullish Type => null
@@ -14,4 +14,8 @@ console.log(a);
 let b = "Rromise";
 b = true;
 console.log(b);
+// never
+const Hope = () => {
+    throw console.error("something rong!");
+};
 export {};
