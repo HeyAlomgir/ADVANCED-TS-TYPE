@@ -14,7 +14,7 @@ console.log(a);
 let b = "Rromise";
 b = true;
 console.log(b);
-// never
+// Botton Tyepe => never
 const Hope = () => {
     throw console.error("something rong!");
 };
