@@ -18,3 +18,11 @@ console.log(myAge.toFixed(5));
 
 let name: string | null = "Alomgir";
 console.log(name!.toUpperCase())
+
+
+// const assertion
+
+let useer = {
+    name: "Alomgir",
+    role: "admin"
+} as const 

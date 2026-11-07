@@ -9,4 +9,9 @@ console.log(myAge.toFixed(5));
 // non-nul assertin
 let name = "Alomgir";
 console.log(name.toUpperCase());
+// const assertion
+let useer = {
+    name: "Alomgir",
+    role: "admin"
+};
 export {};
