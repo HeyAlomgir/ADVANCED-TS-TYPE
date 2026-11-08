@@ -42,3 +42,36 @@ const Gurad = (value: string | number) => {
     }
 }
 Gurad("ALomgir")
+
+
+
+// in operator
+
+interface Doctor {
+    name: string;
+    spefizailation: string;
+}
+interface Patient {
+    name: string;
+    age: number;
+}
+
+
+type User = Doctor | Patient;
+
+const getUserInfo = (user: User) => {
+    if ("spefizailation" in user) {
+        console.log("Doctor:" + user.spefizailation)
+    } else {
+        console.log("Patient naeme + age =" + user.name + " " + user.age)
+    }
+}
+
+getUserInfo({
+    name: "Alomgir",
+    spefizailation: "Cardiology"
+})
+getUserInfo({
+    name: "Fahim",
+    age: 20
+})

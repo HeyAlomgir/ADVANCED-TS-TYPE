@@ -33,4 +33,20 @@ const Gurad = (value) => {
     }
 };
 Gurad("ALomgir");
+const getUserInfo = (user) => {
+    if ("spefizailation" in user) {
+        console.log("Doctor:" + user.spefizailation);
+    }
+    else {
+        console.log("Patient naeme + age =" + user.name + " " + user.age);
+    }
+};
+getUserInfo({
+    name: "Alomgir",
+    spefizailation: "Cardiology"
+});
+getUserInfo({
+    name: "Fahim",
+    age: 20
+});
 export {};
