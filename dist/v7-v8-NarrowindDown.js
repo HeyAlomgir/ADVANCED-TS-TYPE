@@ -23,4 +23,14 @@ narow(454);
 // type of
 let age = 34;
 console.log(typeof age);
+// Type Gurad
+const Gurad = (value) => {
+    if (typeof value === "string") {
+        console.log(value);
+    }
+    else {
+        console.log(console.error("smoething"));
+    }
+};
+Gurad("ALomgir");
 export {};
