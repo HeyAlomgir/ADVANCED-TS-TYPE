@@ -82,3 +82,31 @@ getUserInfo({
 
 let today = new Date();
 console.log(today instanceof Date);
+
+
+
+
+// Dicreminated union
+
+interface Doctors {
+    role: "doctor";
+    name: string;
+    specialization: string;
+}
+interface Patinets {
+    role: "patient";
+    name: string;
+    age: number;
+}
+
+type Users = Doctors | Patinets;
+
+let users: Users = {
+    role: "doctor",
+    name: "Alomgir",
+    specialization: "Cardiology"
+}
+
+if (users.role === "doctor") {
+    console.log(users.specialization)
+}

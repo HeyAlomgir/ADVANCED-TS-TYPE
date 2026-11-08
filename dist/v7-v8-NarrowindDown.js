@@ -52,4 +52,12 @@ getUserInfo({
 // instacneof 
 let today = new Date();
 console.log(today instanceof Date);
+let users = {
+    role: "doctor",
+    name: "Alomgir",
+    specialization: "Cardiology"
+};
+if (users.role === "doctor") {
+    console.log(users.specialization);
+}
 export {};
