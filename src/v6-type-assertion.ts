@@ -25,4 +25,4 @@ console.log(name!.toUpperCase())
 let useer = {
     name: "Alomgir",
     role: "admin"
-} as const 
+} as const   
