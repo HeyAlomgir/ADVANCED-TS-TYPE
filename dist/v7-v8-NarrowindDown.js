@@ -49,4 +49,7 @@ getUserInfo({
     name: "Fahim",
     age: 20
 });
+// instacneof 
+let today = new Date();
+console.log(today instanceof Date);
 export {};
