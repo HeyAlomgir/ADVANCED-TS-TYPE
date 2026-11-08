@@ -1,5 +1,14 @@
 
 // Narrowing down
+// 2. typeof
+// 3. Type Guard
+// 4.Truthiness
+// 5.Equality
+// 6.in operator
+// instant of check
+// Dicreminated union
+
+// Narrowing down
 const narow = (age: string | number) => {
 
     if (typeof age === "string") {
@@ -12,3 +21,11 @@ const narow = (age: string | number) => {
 }
 narow("Alomgir");
 narow(454);
+
+
+
+// type of
+
+
+let age = 34;
+console.log(typeof age);
